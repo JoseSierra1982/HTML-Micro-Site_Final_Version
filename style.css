@@ -1,0 +1,264 @@
+:root
+{
+    --primary-color: #29a598;
+    --text-color: #394c4a;
+    --background-light: #ffffff;
+    --header-height: 100vh;
+}
+
+*, *::before, *::after
+{
+    box-sizing: border-box;
+}
+
+html 
+{
+    font-size: 115%;
+}
+body 
+{
+    
+    padding: 0%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #394c4a;
+    line-height: 1.5;
+    overflow-x: hidden;
+}
+
+.header-background 
+{ 
+    background: linear-gradient(rgba(255, 254, 253, 0.7), rgba(255, 254, 253, 0.9)),url("https://i.imgur.com/TAn6FWz.jpg") center center fixed;
+    background-size: cover;
+    text-align: center;
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav 
+{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 15px 0;
+}
+
+nav ul 
+{
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li 
+{
+    display: inline;
+    margin: 0 10px;
+}
+nav ul li a 
+{
+    color:black;
+    text-decoration: none;
+    font-family:Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+}
+
+.header-content img 
+{
+    max-width: 250px;
+    border-radius: 50%;
+}
+.header-content h1, .header-content p 
+{
+    margin: 0.5rem 0;
+    font-family:Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+
+}
+#profile 
+{     
+    padding:15px;    
+    text-align: center;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+#about 
+{
+    background-color:skyblue; 
+    padding: 15px;
+    border-radius: 0.5%;
+    text-align: center;
+    margin-bottom: 10px;
+    height: 500px ;
+    
+}
+
+.profile-photo 
+{
+    max-width: 75%;
+    height: auto; 
+    border-radius: 0%;
+    border-width: 10px;
+    border-style:solid; 
+    border-color:darkorange
+}
+.service-photo 
+{
+    max-width: 75%;
+    height: auto; 
+    border-radius: 0%;
+    border-width: 10px;
+    border-style: solid;
+}
+
+#services 
+{
+    background-color:gol; 
+    padding: 15px;
+    border-radius: 0%;
+    text-align: center;
+    margin-bottom: 10px;
+    height: 500px ;
+}
+
+#portfolio 
+{
+    background-color:darkolivegreen; 
+    padding: 15px;
+    border-radius: 0.5%;
+    text-align: center;
+    margin-bottom: 10px;
+    height: 500px ;
+}
+.project 
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style:oblique;
+    font-weight:bolder;
+    width: 200px;
+    height: 200px;
+    border: 10px solid darkorange;
+    margin: 10px;
+    display: inline-block;
+    line-height: 200px;
+    background-color:gold;
+    
+}
+
+#contact 
+{
+    background-color: #ffbc4b; 
+    padding: 15px;
+    border-radius: 0.5%;
+    text-align: center;
+    height: 500px ;
+}
+
+.td-btn 
+{
+    padding: 12px 36px;
+    text-transform: uppercase;
+    transition: background-color 0.2s ease-in-out;
+     background-color: #0fbfbf; 
+
+}
+
+footer 
+{
+    
+    display: block;
+    background-color: black;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    width: 100%;
+    border-top: 1px solid white;
+    display: flex;
+    justify-content: center;
+    color:#ffbc4b;
+    font-weight: bolder;
+    
+}
+
+/* Additional Styles */
+h2 
+{
+    color: #333;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2.3rem;
+    text-align: center;
+}
+
+a 
+{
+    color: #29a598;
+    transition: color 0.2s ease-in-out;
+}
+
+a:hover 
+{
+    color: #208479;
+}
+
+@media (max-width: 768px) 
+{
+    nav ul li
+    {
+        display: block;
+        margin: 10px 0;
+    }
+  
+  .profile-photo
+   {
+        width: 50%; 
+        margin: 0 auto; 
+    }
+}
+
+.container
+{
+    padding-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 500px ;
+}
+.text-container
+{
+    margin: 0 20px;
+}
+.text-container p
+{
+    margin: 0 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:bolder;
+
+}
+
+img
+{
+    width: 300px;
+    height: 300px;
+    border-radius: 0px;
+    border-width: 10px;
+    border-style:solid; 
+    border-color:darkorange;
+    
+}
+#form
+{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:bolder;
+    font-style: italic;
+    font-size: 2rem;    
+}
+
+
